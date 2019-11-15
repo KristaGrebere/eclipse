@@ -1,0 +1,29 @@
+class Employee {
+	private String name;
+	private String work = "Programmer";
+	private int salary = 2000;
+	private int totalMoney;
+	
+	public int receiveMoney() {
+		return totalMoney + salary;
+	}
+		
+		public String getName() {
+			return name;
+		}
+
+		public void setName() {
+			this.name = name;
+	
+}
+public class Employeee {
+
+	
+	public static void main(String[] args) {
+		Employee employee1 = new Employee();
+		employee1.name = "Roberts";
+
+	}
+
+}
+}

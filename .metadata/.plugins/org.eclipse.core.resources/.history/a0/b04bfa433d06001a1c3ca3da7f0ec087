@@ -1,0 +1,23 @@
+class Employee {
+	private String name;
+	private String work = "Programmer";
+	private int salary = 2000;
+	private int totalMoney;
+	
+	public int receiveMoney() {
+		return totalMoney + salary;
+		System.out.println("Money in pockets" );
+	}
+	
+}
+public class Employeee {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

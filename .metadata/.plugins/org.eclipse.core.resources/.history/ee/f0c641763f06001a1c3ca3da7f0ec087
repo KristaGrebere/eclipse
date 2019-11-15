@@ -1,0 +1,41 @@
+class Employee {	
+
+private String name;
+	private String work = "Programmer";
+	private int salary = 2000;
+	private int totalMoney;
+
+	public void receiveSalary() {
+		System.out.println(totalMoney + salary);
+	}
+
+	// public int leftJob() {
+
+	// public int getNewJob() {
+
+	public Employee(String name, int totalMoney) {
+		this.name = name;
+		this.totalMoney = totalMoney;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName() {
+		this.name = name;
+
+	}
+
+public class EmployeeTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	
+		Employee employee1 = new Employee("Roberts", 20000);
+
+	}
+
+}}

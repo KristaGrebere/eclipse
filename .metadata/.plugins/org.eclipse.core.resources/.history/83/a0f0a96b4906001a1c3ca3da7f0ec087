@@ -1,0 +1,26 @@
+class Employee {
+
+	private String name;
+	private String work = "Programmer";
+	private int salary;
+	private int totalMoney;
+
+	public Employee(String name, String work, int salary, int totalMoney) {
+		this.name = name;
+		this.totalMoney = totalMoney;
+		this.salary = 2000;
+		this.totalMoney = 10000;
+
+	}
+
+	public class EmployeeTask {
+
+		public static void main(String[] args) {
+
+			Employee employee1 = new Employee("Roberts", "Programmer", 2000,
+					20000);
+
+		}
+
+	}
+}

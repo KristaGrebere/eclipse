@@ -1,0 +1,70 @@
+class Book {
+	private String author;
+	private int pages;
+	private String title;
+
+	public Book(String author, int pages, String title) {
+		this.author = author;
+		this.pages = pages;
+		this.title = title;
+
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor() {
+		this.author = author;
+
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle() {
+		this.title = title;
+
+	}
+
+	public int getPages() {
+		return pages;
+	}
+
+	public void setPages() {
+		this.pages = pages;
+
+	}
+
+	public Book(String title) { // ABC
+		this("Shakespire", 500, title);
+
+	}
+
+	public String toString() {
+		return "Book " + title + " written by " + author + " and has " + pages
+				+ " pages";
+	}
+}
+
+public class BookTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Book book1 = new Book("Shakespire", 1000, "Romeo & Juillet");
+		Book book2 = new Book("Orwel", 2000, "Animal farm");
+		new Book("ABC");
+		System.out.println(book1.toString());
+		System.out.println(book2.toString());
+		System.out.println(book1.toString());
+	}
+
+}
+/*
+ * Create a class Book, which: ◦ ◦ has constructor which defines all fields ◦
+ * has constructor which allows to define title, but author and pages are set to
+ * default ◦ has constructor which reuses another one
+ */

@@ -1,0 +1,17 @@
+
+public class Scope {
+	int x = 11;
+	int y = 33;
+
+	public void method1(int x) {
+		this.x=22;
+		y = 44;
+	
+		System.out.println("this x: " + this.x);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
