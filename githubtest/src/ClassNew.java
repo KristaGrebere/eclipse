@@ -1,11 +1,12 @@
 
 public class ClassNew {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	public static void mainr(String[] args) {
+		int coolNumber = 30;
+		
+		System.out.println("My cool number is:" +  coolNumber);
+		System.out.println("We happy all");
 
 	}
 
